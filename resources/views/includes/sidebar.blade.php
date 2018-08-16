@@ -2,9 +2,7 @@
 
 <div class="all_locations_div">
     <label>All locations</label>
-    <button class="btn">
-        <i class="left_arrow"><</i>
-    </button>
+    <button><</button>
 </div>
 
 <div class="filter_div">
@@ -13,21 +11,70 @@
         <span class="glyphicon glyphicon-sort"></span> Sort
     </a>
 </div>
-afdeling
 <div class="address_match_div">
     @foreach($orders as $order)
     <div class="row">
         <label>{{$order->address}}, {{$order->zipcode}} {{$order->town}}</label>
-        <select id="select" style="">
-            <option style="background-color:lightred">Aarhus</option>
-            <option style="background-color:lightblue">Viborg</option>
-            <option style="background-color:lightgreen">Videbak</option>
-            <option style="background-color:purple">Varde</option>
-            <option style="background-color:green">Ulfborg</option>
-            <option style="background-color:darkyellow">Ringkobing</option>
-            <option style="background-color:lightgrey">Not asigned</option>
+        <select id="select" style="" onChange="location.href='update_delivered?town={{$order->town}}&address={{$order->address}}&color='+this.options[this.selectedIndex].style.backgroundColor">
+            <option style="background-color:red">Aarhus</option>
+            <option style="background-color:green">Viborg</option>
+            <option style="background-color:blue">Videbak</option>
+            <option style="background-color:darkred">Varde</option>
+            <option style="background-color:lightgreen">Ulfborg</option>
+            <option style="background-color:lightblue">Ringkobing</option>
+            <option style="background-color:white">Not asigned</option>
             <option style="background-color:black">Delivered</option>
         </select>
     </div>
     @endforeach
+</div>
+<div class="push_pins_div">
+	<div class="row">
+		<a href="remove_sidebar?town=all&status=remove">
+			<img src="{{asset('icon/unmark/remove.png')}}" class="remove_img">
+			<span>Not asigned</span>
+		</a>
+	</div>
+	<div class="row">
+		<a href='remove_sidebar?town=rin&status=remove'>
+			<img src="{{asset('icon/rin/remove.png')}}" class="remove_img">
+			<span>Rinkobing</span>
+		</a>
+	</div>
+	<div class="row">
+		<a href='remove_sidebar?town=aar&status=remove'>
+			<img src="{{asset('icon/aar/remove.png')}}" class="remove_img">
+			<span>Aarhus</span>
+		</a>
+	</div>
+	<div class="row">
+		<a href='remove_sidebar?town=var&status=remove' >
+		<img src="{{asset('icon/var/remove.png')}}" class="remove_img">
+		<span>Varde</span>
+		</a>
+	</div>
+	<div class="row">
+		<a href='remove_sidebar?town=vib&status=remove' >
+		<img src="{{asset('icon/vib/remove.png')}}" class="remove_img">
+		<span>Viborg</span>
+		</a>
+	</div>
+	<div class="row">
+		<a href='remove_sidebar?town=vid&status=remove' >
+		<img src="{{asset('icon/vid/remove.png')}}" class="remove_img">
+		<span>Videbak</span>
+		</a>
+	</div>
+	<div class="row">
+		<a href='remove_sidebar?town=ulf&status=remove' >
+		<img src="{{asset('icon/ulf/remove.png')}}" class="remove_img">
+		<span>Ulfborg</span>
+		</a>
+	</div>
+	<div class="row">
+		<a href='remove_sidebar?town=all&status=show'>
+		<img src="{{asset('icon/delivered/remove.png')}}" class="remove_img">
+		<span>Delivered</span>
+		</a>
+	</div>
 </div>

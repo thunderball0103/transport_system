@@ -6,7 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "farhanwazir/laravelgooglemaps": "dev-master",
+        "farhanwazir/laravelgooglemaps": "2.3.*",
+        "jmikola/geojson": "~1.0",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"
     },

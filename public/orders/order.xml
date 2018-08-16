@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ConsignorData>
+    <Ordernumber>226965</Ordernumber>
+    <Name1Receiver>Jens Høygaard Michaelsen</Name1Receiver>
+    <Name2Receiver>Jens Høygaard Michaelsen</Name2Receiver>
+    <Adress1Receiver>Solvænget 5</Adress1Receiver>
+    <Adress2Receiver/>
+    <PostalcodeReceiver>9300</PostalcodeReceiver>
+    <CityReceiver>Sæby</CityReceiver>
+    <CountrycodeReceiver>DK</CountrycodeReceiver>
+    <PhoneReceiver>+4540633388</PhoneReceiver>
+    <CustomernumberReceiver/>
+    <EmailadressReceiver>jenhmich@gmail.com</EmailadressReceiver>
+    <AttentionpersonReceiver>Jens Høygaard Michaelsen</AttentionpersonReceiver>
+    <CodAmount>5814,70</CodAmount>
+    <MessageDriver/>
+    <MessageCarrier/>
+    <MessageReceiver/>
+    <CarrierCode>4500</CarrierCode>
+    <Deliverydate>06.08.2018</Deliverydate>
+    <CustNoDropPoint>97264</CustNoDropPoint>
+    <Name1DropPoint>OK Plus Sæby</Name1DropPoint>
+    <Adress1DropPoint>Trafikcenter Sæby Syd 1</Adress1DropPoint>
+    <PostalcodeDropPoint>9300</PostalcodeDropPoint>
+    <CityDropPoint>Sæby</CityDropPoint>
+    <CountrycodeDropPoint>dk</CountrycodeDropPoint>
+    <PhoneDropPoint/>
+    <StillesUdenKvittering>Nej</StillesUdenKvittering>
+    <Branch>rin</Branch>
+    <products>
+        <product>
+            <nr>1</nr>
+            <varenr>1899823</varenr>
+            <varetext1>Makita kombokit m/2 maskiner</varetext1>
+            <varetext2>DLX2113S 18V 3,0Ah</varetext2>
+            <varetext3>u/kuffert m/akku + lader</varetext3>
+            <antal>1.00</antal>
+            <unit>stk</unit>
+        </product>
+        <product>
+            <nr>2</nr>
+            <varenr>1679846</varenr>
+            <varetext1>Makita akku fugepistol</varetext1>
+            <varetext2>DCG180ZX 18V</varetext2>
+            <varetext3>u/akku og lader</varetext3>
+            <antal>2.00</antal>
+            <unit>stk</unit>
+        </product>
+        <product>
+            <nr>3</nr>
+            <varenr>1675263</varenr>
+            <varetext1>Dana fugepindesæt</varetext1>
+            <varetext2>9220 8+10+12+15mm</varetext2>
+            <varetext3/>
+            <antal>1.00</antal>
+            <unit>stk</unit>
+        </product>
+        <product>
+            <nr>4</nr>
+            <varenr>5678815</varenr>
+            <varetext1>Dana fugebund/bagstop 980</varetext1>
+            <varetext2>13mmx50mtr lukkede celler</varetext2>
+            <varetext3>7730</varetext3>
+            <antal>1.00</antal>
+            <unit>ks</unit>
+        </product>
+        <product>
+            <nr>5</nr>
+            <varenr>4595310</varenr>
+            <varetext1>Dana fugebund/bagstop 980</varetext1>
+            <varetext2>20mmx50m lukkede celler m/hul</varetext2>
+            <varetext3>7733</varetext3>
+            <antal>2.00</antal>
+            <unit>ks</unit>
+        </product>
+    </products>
+</ConsignorData>

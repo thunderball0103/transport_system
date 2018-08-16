@@ -10,8 +10,8 @@ body{
 }
 
 #container{
-    width:1920px;
-    height:955px;
+    width:1895px;
+    height:950px;
     margin:auto;
     position:absolute;
 }
@@ -26,8 +26,9 @@ body{
 
 .header_inner_div{
     width: 200px;
-    color: grey; 
+    color: grey;
     margin-left: 115px;
+    margin-top: 11px;
 }
 
 .header_inner_div .material-icons{
@@ -48,6 +49,7 @@ body{
 
 .header_inner_div a{
     color:white;
+    text-decoration: none;
 }
 
 .main{
@@ -65,9 +67,9 @@ body{
 }
 
 .sidebar .all_locations_div{
-    height:50px;
-    background:#d5d5d5;
-    padding:10px;
+    height: 20px;
+    background: #d5d5d5;
+    padding: 10px;
 }
 
 .sidebar .all_locations_div .btn{
@@ -84,18 +86,20 @@ body{
 }
 
 .sidebar .filter_div{
-    height:70px;
-    padding:10px;
-
+    height: 20px;
+    padding: 10px;
 }
 
 .sidebar .filter_div input{
     width:100px;
 }
 .sidebar .filter_div .btn{
-    margin-left:10px;
-    font-size:10px;
-    padding:5px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid grey;
+    background: white;
 }
 
 .sidebar .filter_div .btn .glyphicon{
@@ -103,12 +107,13 @@ body{
 }
 
 .sidebar .address_match_div{
-    height:340px;
-
+    height: 250px;
+    overflow: auto;
 }
 
 .sidebar .address_match_div .row{
-    
+    height: 35px;
+    width: 200px;
 }
 
 .sidebar .address_match_div label{
@@ -123,8 +128,20 @@ body{
 }
 
 .sidebar .push_pins_div{
-    height:330px;
-    padding:20px;
+    height: 420px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.sidebar .push_pins_div a{
+	cursor:pointer;
+	text-decoration:none
+}
+
+
+.sidebar .push_pins_div .remove_img{
+	width:40px;
+	height:40px;
 }
 
 .content{
@@ -138,17 +155,30 @@ body{
     height:850px !important;
 }
 
+#asign_dialog{
+    width: 300px;
+    height: 250px;
+    left: 850px;
+    top: 300px;
+    position: absolute;
+    display: none;
+    opacity: 0.9;
+    background: white;
+    padding: 23px;
+}
+
 #asigned_area{
 
 }
 
 #asigned_route{
-        
+    
 }
 
 .go_btn{
     float: right;
-    margin-top: -50px;
+    margin-top: -25px;
+    margin-right: -25px;
 }
 
 .footer{

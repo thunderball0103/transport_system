@@ -11,7 +11,7 @@ return [
     /* =====================================================================
     General
     ===================================================================== */
-    'key' => 'AIzaSyBdKhp2-gvDqH7y0AKhLm9-qgrP72XCdI8', //Get API key: https://code.google.com/apis/console
+    'key' => 'AIzaSyCAtQY36wqgDiU7FM7XFQkORvc4A6taTro', //Get API key: https://code.google.com/apis/console
     'adsense_publisher_id' => '', //Google AdSense publisher ID
 
     'geocode' => [
